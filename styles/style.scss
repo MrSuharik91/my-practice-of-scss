@@ -1,0 +1,72 @@
+body{
+    font-family: Oswald;
+}
+header{
+    .up-header{
+        display: flex;
+        justify-content: space-between;
+        width:72%;
+        margin:0 auto;
+        padding-top:47px;
+    }
+    background-image:url(../images/background.png);
+    height:700px;
+    background-color:#21062A;
+    color: #fff;
+}
+header h1{
+    font-size: 36px;
+    font-weight: 400;
+}
+.under-up-header{
+    padding:100px;
+    margin:0 auto;
+    width:72%;
+    h1{
+        font-size: 72px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .order{
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    h2{
+        margin-top:30px;
+        font-size: 18px;
+        font-weight: 300;
+        margin-bottom:30px;
+    }
+    button{
+        background: #5A0D67;
+        width: 250px;
+        color: #fff;
+        border: none;
+        height: 50px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    .icons-header{
+        display: flex;
+        position: relative;
+    }
+    .inner-header{
+        width:250px;
+        padding-top:70px;
+        margin:0;
+        grid-template-columns:25px 25px 25px 25px;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        gap:10px;
+    }
+    .svg-header{
+        margin-top:70px;
+        margin:0 auto;
+    }
+    .car{
+        position: absolute;
+        right:0;
+    }
+}
