@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     font-family: Oswald;
 }
@@ -68,5 +71,120 @@ header h1{
     .car{
         position: absolute;
         right:0;
+    }
+}
+section{
+    padding-top:300px;
+    margin:0 auto;
+    width:76%;
+    display: flex;
+    gap:100px;
+    p{
+        line-height:150%;
+        margin-top:12px;
+        font-size: 16px;
+        color:#2C2B2B;
+        font-weight:400;
+    }
+    h2{
+        color: #5A0D67;
+        font-size: 18px;
+        margin-top:60px;
+        font-weight: 300;
+    }
+    h1{
+        color:#21062A;
+        font-size: 36px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .section-inner{
+        display: flex;
+        align-items: center;
+        gap:10px;
+    }
+    .line{
+        width: 80px;
+        height: 3px;
+        background: #21062A;
+    }
+    button{
+        width: 250px;
+        font-size: 14px;
+        height: 50px;
+        color: #fff;
+        border: none;
+        background: #5A0D67;
+    }
+    .inner-section-button{
+        display: flex;
+        margin-top:50px;
+        align-items:center;
+    }
+    .inner-section-button .line-2{
+        width: 80px;
+        height: 1px;
+        background: #C4C4C4;
+    }
+    .inner-section-button p{
+        color:#C4C4C4;
+        align-self:start;
+        font-size: 14px;
+        text-transform: uppercase;
+        margin-left:10px;
+        padding-top:1.5px;
+    }
+     .inner-section-large-2{
+        margin-bottom:12px;
+    }
+    .inner-section-large-1 h1{
+        color:  #5A0D67;
+        transform: rotate(-90deg);
+        font-size: 36px;
+        margin-right:40px;
+        margin-left:20px;
+        font-weight: 400;
+    }
+    .inner-section-large-1{
+        border: 2px solid #5A0D67;
+        display: flex;
+        align-items: center;
+        margin-bottom:12px;
+        height:75px;
+    }
+    .inner-section-large-2 h2{
+        color: #2C2B2B;
+        margin: 0 !important;
+        font-weight:300;
+        font-size: 24px;
+    }
+    .section-text p{
+        margin: 0;
+        font-size: 18px;
+        white-space: nowrap;
+        font-weight:300;
+    }
+    .inner-section-large-2 h1{
+        color:#C4C4C4;
+        transform: rotate(-90deg);
+        font-size: 36px;
+        margin-right:40px;
+        margin-left:20px;
+        font-weight: 400;
+    }
+    .inner-section-large-2{
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--unnamed, #C4C4C4);
+        height:75px;
+    }
+    .inner-section-large-1 h2{
+        color: #5A0D67;
+        margin:0 auto;
+        font-size: 24px;
+    }
+    .inner-section-large-2 p{
+        margin:0;
+        font-size: 14px;
     }
 }
