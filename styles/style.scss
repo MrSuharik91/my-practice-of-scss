@@ -150,6 +150,7 @@ section{
         display: flex;
         align-items: center;
         margin-bottom:12px;
+        width:430px;
         height:75px;
     }
     .inner-section-large-2 h2{
@@ -177,6 +178,7 @@ section{
         align-items: center;
         border: 1px solid var(--unnamed, #C4C4C4);
         height:75px;
+        width:390px;
     }
     .inner-section-large-1 h2{
         color: #5A0D67;
@@ -185,6 +187,6 @@ section{
     }
     .inner-section-large-2 p{
         margin:0;
-        font-size: 14px;
+        font-size: 15px;
     }
 }
